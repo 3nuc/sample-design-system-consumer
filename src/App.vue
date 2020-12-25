@@ -1,19 +1,13 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DsButton>HI</DsButton>
 </template>
 
-<script>
+<script setup>
+/* eslint-disable */
+import {Button as DsButton} from '@e-urzad/ds';
 import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
