@@ -1,12 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <DsButton>HI</DsButton>
+  <Button>HELLO</Button>
 </template>
 
-<script setup>
+<script>
 /* eslint-disable */
-import {Button as DsButton} from '@e-urzad/ds';
+import {Button} from '@e-urzad/ds';
 import HelloWorld from './components/HelloWorld.vue'
+export default {
+components: {Button}
+}
 </script>
 <style>
 #app {
